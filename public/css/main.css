@@ -1,0 +1,61 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Warang+Citi&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+:root {
+ 
+    --green: #678E61;
+    --off-green:#7C9E77;
+    --white-green: #F1EFEF;
+    --yellow: #F07F13;
+    --pure-white:rgba(255, 255, 255, 0.9);
+    --pure-black: rgba(0, 0, 0, 0.9);
+    --off-black: rgba(0, 0, 0, 0.56);
+    --text-gray:#464343;
+    --border-color: #C6C6C6;
+    --font-inter: "Lato";
+    --weight400:400;
+    --weight500:500;
+    --weight600:600;
+    --radius4:4px;
+    --radius8:8px;
+    --radius20:20px;
+    --border-radius: 8px;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+     background:#F1EFEF!important
+}
+
+.btn-buttonouline{
+    background: var(--offgreen);
+    border-radius: var(--button-radius);
+    font-family: var(--font-inter);
+    font-weight: 500;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    transition: 500ms ease-in-out;
+    letter-spacing: 0.1px;
+    cursor: pointer;
+    border: 1px solid var(--offgreen);
+    height: 48px;
+    width: 108px;
+}
+
+.btn-buttonouline:hover{
+  background: var(--green);
+  border: 1px solid var(--green);
+
+}
+
